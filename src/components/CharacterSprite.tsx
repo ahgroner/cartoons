@@ -92,38 +92,9 @@ export default function CharacterSprite({ character, x, y, size = 64, speed = 20
               width: '100%',
               height: '100%',
               objectFit: 'contain',
-              transform: facing === 'left' ? 'scaleX(-1)' : 'none',
-              // Subtle desaturation for consistent tinting
-              filter: character.color ? 'grayscale(1) brightness(0.92)' : 'none'
+              transform: facing === 'left' ? 'scaleX(-1)' : 'none'
             }}
           />
-
-          {character.color ? (
-            // The tint layer uses the GIF itself as an alpha mask so transparent pixels are untouched
-            // Apply same flip as the sprite so the mask stays aligned when mirrored
-            <div
-              style={{
-                position: 'absolute',
-                inset: 0,
-                backgroundColor: character.color,
-                mixBlendMode: 'color',
-                opacity: 0.85,
-                pointerEvents: 'none',
-                willChange: 'transform',
-                transform: facing === 'left' ? 'scaleX(-1)' : 'none',
-                transformOrigin: 'center center',
-                // Use the same image as a mask so the tint only appears where the GIF has pixels
-                WebkitMaskImage: `url(${isMoving ? assets.walk : assets.idle})`,
-                WebkitMaskRepeat: 'no-repeat',
-                WebkitMaskPosition: 'center',
-                WebkitMaskSize: 'contain',
-                maskImage: `url(${isMoving ? assets.walk : assets.idle})`,
-                maskRepeat: 'no-repeat',
-                maskPosition: 'center',
-                maskSize: 'contain'
-              }}
-            />
-          ) : null}
         </div>
       </HoverTooltip>
     </div>
