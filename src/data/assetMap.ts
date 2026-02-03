@@ -1,5 +1,5 @@
 // Explicit asset map (auto-generated)
-import defaultIdleSpritesheet from '../assets/characters/default/idle_spritesheet.png'
+import defaultIdleSpritesheet from '../assets/sprites/micky_mouse.png'
 
 export type CharacterAssets = { spritesheet: string }
 

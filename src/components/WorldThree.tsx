@@ -3,11 +3,12 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { sortBy } from 'lodash-es';
 import type { Character } from './types';
 import { assetMap } from '../data/assetMap';
-import { SpriteSheetMesh } from './SpriteSheetMesh';
+import { CharacterSprite } from './CharacterSprite';
 import charactersData from '../data/characters.json';
 
-const WORLD_SIZE = 2000;
-const CHARACTER_SIZE = 64;
+const WORLD_SIZE = 4000;
+
+const AVG_CHARACTER_SIZE = 128
 
 enum SORT_OPTIONS {
   DATE_CREATED = 'date_created',
@@ -97,24 +98,18 @@ function Characters({ characters, positions }: { characters: Character[]; positi
       {characters.map((c) => {
         const p = animatedPositions.current[c.character_id] || positions[c.character_id];
         const assets = assetMap[c.character_id.replace(/_\d+$/, '')];
-        // fallback to default if not found
         const spritesheet = assets?.spritesheet;
-        const spriteWidth = (c as any).sprite_width || 128;
-        const spriteHeight = (c as any).sprite_height || 128;
-        const idleFrames = (c as any).idle_frames || 14;
+
         return (
           <group key={c.character_id} position={[p.x, p.y, 0]}>
             {spritesheet ? (
-              <SpriteSheetMesh
-                url={spritesheet}
-                frameWidth={spriteWidth}
-                frameHeight={spriteHeight}
-                numFrames={idleFrames}
-                size={CHARACTER_SIZE}
+              <CharacterSprite
+                character={c}
+                facing='right'
               />
             ) : (
               <mesh>
-                <planeGeometry args={[CHARACTER_SIZE, CHARACTER_SIZE]} />
+                <planeGeometry args={[c.sprite_width, c.sprite_height]} />
                 <meshBasicMaterial color={c.color || '#999'} />
               </mesh>
             )}
@@ -165,12 +160,12 @@ export function WorldThree() {
       return 0;
     });
     const margin = 20;
-    const usable = WORLD_SIZE - margin * 2 - CHARACTER_SIZE;
+    const usable = WORLD_SIZE - margin * 2 - AVG_CHARACTER_SIZE;
     const spacing = n > 1 ? usable / (n - 1) : 0;
     const pos: Record<string, { x: number; y: number }> = {};
     sorted.forEach((c, i) => {
       const x = margin + Math.round(i * spacing);
-      const y = Math.floor(Math.random() * (WORLD_SIZE - CHARACTER_SIZE - margin * 2)) + margin;
+      const y = Math.floor(Math.random() * (WORLD_SIZE - 1.5 * AVG_CHARACTER_SIZE - margin * 2)) + margin;
       pos[c.character_id] = { x, y };
     });
     return pos;

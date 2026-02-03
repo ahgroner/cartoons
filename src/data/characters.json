@@ -11,7 +11,8 @@
     "character_id": "mickey_mouse",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Minnie Mouse",
@@ -27,7 +28,9 @@
     "character_id": "minnie_mouse",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
+
   },
   {
     "name": "Donald Duck",
@@ -41,7 +44,8 @@
     "character_id": "donald_duck",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Daisy Duck",
@@ -57,7 +61,8 @@
     "character_id": "daisy_duck",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Goofy",
@@ -71,7 +76,8 @@
     "character_id": "goofy",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Pluto",
@@ -87,7 +93,8 @@
     "character_id": "pluto",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Snow White",
@@ -103,7 +110,8 @@
     "character_id": "snow_white",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Cinderella",
@@ -119,7 +127,8 @@
     "character_id": "cinderella",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Aurora",
@@ -135,7 +144,8 @@
     "character_id": "aurora",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Ariel",
@@ -149,7 +159,8 @@
     "character_id": "ariel",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Prince Eric",
@@ -165,7 +176,8 @@
     "character_id": "prince_eric",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Belle",
@@ -181,7 +193,8 @@
     "character_id": "belle",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Beast",
@@ -195,7 +208,8 @@
     "character_id": "beast",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Jasmine",
@@ -211,7 +225,8 @@
     "character_id": "jasmine",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Aladdin",
@@ -227,7 +242,8 @@
     "character_id": "aladdin",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Pocahontas",
@@ -243,7 +259,8 @@
     "character_id": "pocahontas",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Mulan",
@@ -259,7 +276,8 @@
     "character_id": "mulan",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Tiana",
@@ -275,7 +293,8 @@
     "character_id": "tiana",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Rapunzel",
@@ -291,7 +310,8 @@
     "character_id": "rapunzel",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Flynn Rider (Eugene)",
@@ -307,7 +327,8 @@
     "character_id": "flynn_rider_eugene",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Merida",
@@ -321,7 +342,8 @@
     "character_id": "merida",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Moana",
@@ -337,7 +359,8 @@
     "character_id": "moana",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Maui",
@@ -351,7 +374,8 @@
     "character_id": "maui",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Elsa",
@@ -365,7 +389,8 @@
     "character_id": "elsa",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Anna",
@@ -381,7 +406,8 @@
     "character_id": "anna",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Olaf",
@@ -395,7 +421,8 @@
     "character_id": "olaf",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Kristoff",
@@ -411,7 +438,8 @@
     "character_id": "kristoff",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Sven",
@@ -427,7 +455,8 @@
     "character_id": "sven",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Tinker Bell",
@@ -441,7 +470,8 @@
     "character_id": "tinker_bell",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Peter Pan",
@@ -455,7 +485,8 @@
     "character_id": "peter_pan",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Captain Hook",
@@ -469,7 +500,8 @@
     "character_id": "captain_hook",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Pinocchio",
@@ -483,7 +515,8 @@
     "character_id": "pinocchio",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Jiminy Cricket",
@@ -497,7 +530,8 @@
     "character_id": "jiminy_cricket",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Bambi",
@@ -513,7 +547,8 @@
     "character_id": "bambi",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Thumper",
@@ -527,7 +562,8 @@
     "character_id": "thumper",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Dumbo",
@@ -541,7 +577,8 @@
     "character_id": "dumbo",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Lady",
@@ -555,7 +592,8 @@
     "character_id": "lady",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Tramp",
@@ -569,7 +607,8 @@
     "character_id": "tramp",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Winnie the Pooh",
@@ -583,7 +622,8 @@
     "character_id": "winnie_the_pooh",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Tigger",
@@ -597,7 +637,8 @@
     "character_id": "tigger",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Piglet",
@@ -613,7 +654,8 @@
     "character_id": "piglet",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Eeyore",
@@ -627,7 +669,8 @@
     "character_id": "eeyore",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Christopher Robin",
@@ -643,7 +686,8 @@
     "character_id": "christopher_robin",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Simba",
@@ -657,7 +701,8 @@
     "character_id": "simba",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Nala",
@@ -671,7 +716,8 @@
     "character_id": "nala",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Mufasa",
@@ -685,7 +731,8 @@
     "character_id": "mufasa",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Scar",
@@ -699,7 +746,8 @@
     "character_id": "scar",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Timon",
@@ -713,7 +761,8 @@
     "character_id": "timon",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Pumbaa",
@@ -727,7 +776,8 @@
     "character_id": "pumbaa",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Hercules",
@@ -741,7 +791,8 @@
     "character_id": "hercules",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Megara",
@@ -757,7 +808,8 @@
     "character_id": "megara",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Hades",
@@ -771,7 +823,8 @@
     "character_id": "hades",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Tarzan",
@@ -787,7 +840,8 @@
     "character_id": "tarzan",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Jane",
@@ -803,7 +857,8 @@
     "character_id": "jane",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Lilo",
@@ -819,7 +874,8 @@
     "character_id": "lilo",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Stitch",
@@ -833,7 +889,8 @@
     "character_id": "stitch",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Woody",
@@ -847,7 +904,8 @@
     "character_id": "woody",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Buzz Lightyear",
@@ -861,7 +919,8 @@
     "character_id": "buzz_lightyear",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Jessie",
@@ -875,7 +934,8 @@
     "character_id": "jessie",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Bo Peep",
@@ -889,7 +949,8 @@
     "character_id": "bo_peep",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Slinky Dog",
@@ -903,7 +964,8 @@
     "character_id": "slinky_dog",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Mr. Potato Head",
@@ -917,7 +979,8 @@
     "character_id": "mr_potato_head",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Rex",
@@ -931,7 +994,8 @@
     "character_id": "rex",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Hamm",
@@ -945,7 +1009,8 @@
     "character_id": "hamm",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Mr. Incredible (Bob Parr)",
@@ -959,7 +1024,8 @@
     "character_id": "mr_incredible_bob_parr",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Elastigirl (Helen Parr)",
@@ -973,7 +1039,8 @@
     "character_id": "elastigirl_helen_parr",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Violet Parr",
@@ -987,7 +1054,8 @@
     "character_id": "violet_parr",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Dash Parr",
@@ -1001,7 +1069,8 @@
     "character_id": "dash_parr",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Jack-Jack",
@@ -1017,7 +1086,8 @@
     "character_id": "jack_jack",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Frozone",
@@ -1031,7 +1101,8 @@
     "character_id": "frozone",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Syndrome",
@@ -1045,7 +1116,8 @@
     "character_id": "syndrome",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Sulley",
@@ -1061,7 +1133,8 @@
     "character_id": "sulley",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Mike Wazowski",
@@ -1077,7 +1150,8 @@
     "character_id": "mike_wazowski",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Boo",
@@ -1091,7 +1165,8 @@
     "character_id": "boo",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Nemo",
@@ -1105,7 +1180,8 @@
     "character_id": "nemo",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Marlin",
@@ -1119,7 +1195,8 @@
     "character_id": "marlin",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Dory",
@@ -1133,7 +1210,8 @@
     "character_id": "dory",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Remy",
@@ -1147,7 +1225,8 @@
     "character_id": "remy",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Linguini",
@@ -1163,7 +1242,8 @@
     "character_id": "linguini",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "WALL·E",
@@ -1177,7 +1257,8 @@
     "character_id": "wall_e",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "EVE",
@@ -1191,7 +1272,8 @@
     "character_id": "eve",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Carl Fredricksen",
@@ -1205,7 +1287,8 @@
     "character_id": "carl_fredricksen",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Russell",
@@ -1219,7 +1302,8 @@
     "character_id": "russell",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Dug",
@@ -1233,7 +1317,8 @@
     "character_id": "dug",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Joy",
@@ -1247,7 +1332,8 @@
     "character_id": "joy",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Sadness",
@@ -1261,7 +1347,8 @@
     "character_id": "sadness",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Lightning McQueen",
@@ -1275,7 +1362,8 @@
     "character_id": "lightning_mcqueen",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Mater",
@@ -1289,7 +1377,8 @@
     "character_id": "mater",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Doc Hudson",
@@ -1303,7 +1392,8 @@
     "character_id": "doc_hudson",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Judy Hopps",
@@ -1317,7 +1407,8 @@
     "character_id": "judy_hopps",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Nick Wilde",
@@ -1331,7 +1422,8 @@
     "character_id": "nick_wilde",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Maleficent",
@@ -1345,7 +1437,8 @@
     "character_id": "maleficent",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Ursula",
@@ -1359,7 +1452,8 @@
     "character_id": "ursula",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Cruella de Vil",
@@ -1373,7 +1467,8 @@
     "character_id": "cruella_de_vil",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Queen of Hearts",
@@ -1387,7 +1482,8 @@
     "character_id": "queen_of_hearts",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Lady Tremaine",
@@ -1401,7 +1497,8 @@
     "character_id": "lady_tremaine",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Prince Charming",
@@ -1417,7 +1514,8 @@
     "character_id": "prince_charming",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "King Triton",
@@ -1431,7 +1529,8 @@
     "character_id": "king_triton",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Miguel",
@@ -1447,7 +1546,8 @@
     "character_id": "miguel",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   },
   {
     "name": "Ernesto de la Cruz",
@@ -1461,6 +1561,7 @@
     "character_id": "ernesto_de_la_cruz",
     "sprite_width": 128,
     "sprite_height": 128,
-    "idle_frames": 14
+    "idle_frames": 14,
+    "walk_frames": 10
   }
 ]

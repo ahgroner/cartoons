@@ -1,85 +1,79 @@
-import { useEffect, useRef, useState } from 'react'
-import type { Character } from './types.ts'
-import HoverTooltip from './HoverTooltip'
-import { assetMap } from '../data/assetMap'
+import { useRef, useEffect } from 'react';
+import { useLoader, useFrame } from '@react-three/fiber';
+import * as THREE from 'three';
+import { assetMap } from '../data/assetMap';
+import type { Character } from './types';
 
-type Props = {
-  character: Character
-  x: number
-  y: number
-  size?: number
-  speed?: number // px per second
+type CharacterSpriteProps = {
+  character: Character;
+  fps?: number;
+  facing?: 'left' | 'right';
+  isWalking?: boolean;
 }
 
-export default function CharacterSprite({ character, x, y, size = 64, speed = 200 }: Props) {
-  const ref = useRef<HTMLDivElement | null>(null)
-  const prev = useRef<{ x: number; y: number } | null>(null)
-  // Remove isMoving and facing, not needed for idle animation
-  const [frame, setFrame] = useState(0)
+export const CharacterSprite = ({
+  character,
+  fps = 12,
+  facing = 'right',
+  isWalking = false,
+}: CharacterSpriteProps) => {
+  const meshRef = useRef<THREE.Mesh>(null);
+  const assets = assetMap[character.character_id.replace(/_\d+$/, '')];
 
-  // Only handle position update (no walking/facing logic)
+  console.log(character)
+  // Frame ranges
+  const idleStart = 0;
+  const idleEnd = character.idle_frames - 1;
+  const walkStart = character.idle_frames;
+  const walkEnd = character.idle_frames + character.walk_frames - 1;
+  const totalFrames = character.idle_frames + character.walk_frames;
+
+  console.log(assets.spritesheet)
+  const texture = useLoader(THREE.TextureLoader, assets?.spritesheet);
+
+  const frame = useRef(idleStart);
+  const lastTime = useRef(0);
+
+  // Set texture params
   useEffect(() => {
-    const el = ref.current
-    if (!el) return
-    el.style.transform = `translate(${x}px, ${y}px)`
-  }, [x, y])
+    texture.wrapS = THREE.ClampToEdgeWrapping;
+    texture.wrapT = THREE.ClampToEdgeWrapping;
+    texture.minFilter = THREE.NearestFilter;
+    texture.magFilter = THREE.NearestFilter;
+    texture.needsUpdate = true;
+  }, [texture]);
 
-  // Animation loop for idle spritesheet
-  useEffect(() => {
-    let animId: number
-    let running = true
-    function animate() {
-      setFrame(f => (f + 1) % idleFrames)
-      animId = window.setTimeout(animate, 1000 / 12) // 12 FPS
+  useFrame((_, delta) => {
+    lastTime.current += delta;
+    const frameDuration = 1 / fps;
+    let startFrame = isWalking ? walkStart : idleStart;
+    let endFrame = isWalking ? walkEnd : idleEnd;
+    let numFrames = endFrame - startFrame + 1;
+    // If switching between idle/walk, reset to startFrame
+    if (frame.current < startFrame || frame.current > endFrame) {
+      frame.current = startFrame;
     }
-    animate()
-    return () => {
-      running = false
-      clearTimeout(animId)
+    if (lastTime.current >= frameDuration) {
+      let relFrame = (frame.current - startFrame + 1) % numFrames;
+      frame.current = startFrame + relFrame;
+      lastTime.current = 0;
     }
-  }, [])
+    // Set offset for vertical spritesheet (original logic)
+    texture.offset.y = frame.current / totalFrames;
+    texture.repeat.y = 1 / totalFrames;
+    texture.offset.x = 0;
+    texture.repeat.x = 1;
+  });
 
-  const cid = (character as any).character_id;
-  if (!cid) {
-    return null;
-  }
-  const assets = assetMap[cid]
-  const spriteWidth = character.sprite_width || size
-  const spriteHeight = character.sprite_height || size
-  const idleFrames = character.idle_frames || 1
-
+  console.log('SpriteSheetMesh geometry:', character.sprite_width, character.sprite_height);
   return (
-    <div
-      ref={ref}
-      className="character"
-      style={{
-        width: size,
-        height: size,
-        position: 'absolute',
-        transform: `translate(${x}px, ${y}px)`,
-        willChange: 'transform'
-      }}
-      title={character.name}
-    >
-      <HoverTooltip title={character.name} content={JSON.stringify(character, null, 2)}>
-        <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
-          <img
-            src={assets.idle}
-            style={{
-              position: 'absolute',
-              left: -(frame * spriteWidth),
-              top: 0,
-              width: spriteWidth * idleFrames,
-              height: spriteHeight,
-              imageRendering: 'pixelated',
-              pointerEvents: 'none',
-              userSelect: 'none',
-            }}
-            draggable={false}
-            alt={character.name}
-          />
-        </div>
-      </HoverTooltip>
-    </div>
-  )
+    <mesh ref={meshRef}>
+      <planeGeometry args={[character.sprite_width, character.sprite_height]} />
+      <meshBasicMaterial
+        map={texture}
+        transparent
+        side={THREE.DoubleSide}
+      />
+    </mesh>
+  );
 }
