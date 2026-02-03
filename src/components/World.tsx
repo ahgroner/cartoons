@@ -279,7 +279,7 @@ export default function World() {
           {characters.map((c) => {
             const p = positions[c.name] || { x: Math.random() * (WORLD_SIZE - CHARACTER_SIZE), y: Math.random() * (WORLD_SIZE - CHARACTER_SIZE) }
             return (
-              <g key={c.name}>
+              <g key={c.character_id}>
                 <g transform={`translate(${p.x}, ${p.y})`}>
                   <SvgCharacter character={c} x={p.x} y={p.y} size={CHARACTER_SIZE} speed={SPEED} />
                 </g>
@@ -298,7 +298,7 @@ export default function World() {
             const p = positions[c.name] || { x: 0, y: 0 }
             const cx = p.x * miniScale
             const cy = p.y * miniScale
-            return <circle key={c.name} cx={cx} cy={cy} r={3} fill={c.color || '#999'} />
+            return <circle key={c.character_id} cx={cx} cy={cy} r={1} fill={c.color || '#999'} />
           })}
           {/* viewport rectangle */}
           <rect
