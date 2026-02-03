@@ -1,12 +1,18 @@
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+import { useCallback } from 'react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { sortBy } from 'lodash-es';
+import * as THREE from 'three';
 import type { Character } from './types';
 import { assetMap } from '../data/assetMap';
 import { CharacterSprite } from './CharacterSprite';
 import charactersData from '../data/characters.json';
 
 const WORLD_SIZE = 4000;
+const DEFAULT_ZOOM = 0.1
+const MIN_ZOOM = 0.1
+const MAX_ZOOM = 6
 
 const AVG_CHARACTER_SIZE = 128
 
@@ -95,7 +101,7 @@ function Characters({ characters, positions }: { characters: Character[]; positi
 
   return (
     <>
-      {characters.slice(0,1).map((c) => {
+      {characters.map((c) => {
         const p = animatedPositions.current[c.character_id] || positions[c.character_id];
         const assets = assetMap[c.character_id.replace(/_\d+$/, '')];
         const spritesheet = assets?.spritesheet;
@@ -110,7 +116,7 @@ function Characters({ characters, positions }: { characters: Character[]; positi
             ) : (
               <mesh>
                 <planeGeometry args={[c.sprite_width, c.sprite_height]} />
-                <meshBasicMaterial color={c.color || '#999'} />
+                {/* <meshBasicMaterial color={c.color || '#999'} /> */}
               </mesh>
             )}
           </group>
@@ -124,8 +130,7 @@ export const WorldThree = () => {
   const [arrangeBy, setArrangeBy] = useState('date_created');
   const [zoom, setZoom] = useState(1);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
-  const dragging = useRef(false);
-  const lastPos = useRef<{ x: number; y: number } | null>(null);
+  // Remove local dragging/lastPos refs
 
   const characters = useMemo(() => {
     const base: Character[] = charactersData as Character[];
@@ -171,57 +176,56 @@ export const WorldThree = () => {
     return pos;
   }, [characters, arrangeBy, n]);
 
-  // Camera controls
-  function CameraController() {
-    const { camera, size } = useThree();
-    useFrame(() => {
-      const aspect = size.width / size.height;
-      const camHeight = WORLD_SIZE / zoom;
-      const camWidth = camHeight * aspect;
-      camera.left = -camWidth / 2 + offset.x;
-      camera.right = camWidth / 2 + offset.x;
-      camera.top = camHeight / 2 + offset.y;
-      camera.bottom = -camHeight / 2 + offset.y;
-      camera.position.set(WORLD_SIZE / 2, WORLD_SIZE / 2, 1000); // look straight down
-      camera.up.set(0, 1, 0);
-      camera.lookAt(WORLD_SIZE / 2, WORLD_SIZE / 2, 0);
-      camera.updateProjectionMatrix();
-    });
-    return null;
-  }
+  // // Camera controls
+  // function CameraController() {
+  //   const { camera, size } = useThree();
+  //   useFrame(() => {
+  //     const aspect = size.width / size.height;
+  //     const camHeight = WORLD_SIZE / zoom;
+  //     const camWidth = camHeight * aspect;
+  //     camera.left = -camWidth / 2 + offset.x;
+  //     camera.right = camWidth / 2 + offset.x;
+  //     camera.top = camHeight / 2 + offset.y;
+  //     camera.bottom = -camHeight / 2 + offset.y;
+  //     camera.position.set(WORLD_SIZE / 2, WORLD_SIZE / 2, 1000); // look straight down
+  //     camera.up.set(0, 1, 0);
+  //     camera.lookAt(WORLD_SIZE / 2, WORLD_SIZE / 2, 0);
+  //     camera.updateProjectionMatrix();
+  //   });
+  //   return null;
+  // }
 
-  // Mouse events for pan/zoom
-  const onPointerDown = (e: React.PointerEvent) => {
-    dragging.current = true;
-    lastPos.current = { x: e.clientX, y: e.clientY };
-  };
-  const onPointerMove = (e: React.PointerEvent) => {
-    if (!dragging.current || !lastPos.current) return;
-    const dx = e.clientX - lastPos.current.x;
-    const dy = e.clientY - lastPos.current.y;
-    lastPos.current = { x: e.clientX, y: e.clientY };
-    setOffset((o) => ({ x: o.x - dx * zoom, y: o.y + dy * zoom }));
-  };
-  const onPointerUp = () => {
-    dragging.current = false;
-    lastPos.current = null;
-  };
-  const onWheel = (e: React.WheelEvent) => {
-    e.preventDefault();
-    setZoom((z) => Math.max(0.25, Math.min(6, z * Math.exp(-e.deltaY * 0.001))));
-  };
+  const orbitRef = useRef<any>(null);
+  const mouseWorldRef = useRef<[number, number, number]>([WORLD_SIZE / 2, WORLD_SIZE / 2, 0]);
 
   return (
     <div
       style={{ width: '100vw', height: '100vh', position: 'relative' }}
-      onPointerDown={onPointerDown}
-      onPointerMove={onPointerMove}
-      onPointerUp={onPointerUp}
-      onPointerLeave={onPointerUp}
-      onWheel={onWheel}
     >
-      <Canvas orthographic camera={{ position: [WORLD_SIZE / 2, WORLD_SIZE / 2, 1000], zoom: 1, near: 0.1, far: 10000 }} style={{ background: '#fff' }}>
-        <CameraController />
+      <Canvas
+        orthographic
+        camera={{ position: [WORLD_SIZE / 2, WORLD_SIZE / 2, 1000], zoom: DEFAULT_ZOOM, near: 0.1, far: 10000 }}
+        style={{ background: '#fff' }}
+      >
+        <OrbitControls
+          ref={orbitRef}
+          enableRotate={false}
+          enablePan={true}
+          enableZoom={true}
+          minZoom={MIN_ZOOM}
+          maxZoom={MAX_ZOOM}
+          target={[WORLD_SIZE / 2, WORLD_SIZE / 2, 0]}
+        />
+        {/* Large grey cube for worldspace */}
+        <mesh position={[WORLD_SIZE / 2, WORLD_SIZE / 2, -50]}>
+          <boxGeometry args={[WORLD_SIZE, WORLD_SIZE, 100]} />
+          <meshBasicMaterial color="#cccccc" opacity={0.5} transparent />
+        </mesh>
+        {/* Cube at OrbitControls target */}
+        <mesh position={[WORLD_SIZE / 2, WORLD_SIZE / 2, 0]}>
+          <boxGeometry args={[50, 50, 50]} />
+          <meshBasicMaterial color="red" />
+        </mesh>
         {/* Grid */}
         <gridHelper args={[WORLD_SIZE, WORLD_SIZE / 40, '#cccccc', '#eeeeee']} position={[WORLD_SIZE / 2, WORLD_SIZE / 2, 0]} />
         <Characters characters={characters} positions={positions} />
