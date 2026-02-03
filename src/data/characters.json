@@ -1,0 +1,1166 @@
+[
+  {
+    "name": "Mickey Mouse",
+    "date_created": "1928-11-18",
+    "color": "#FFCC00",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "mickey_mouse"
+  },
+  {
+    "name": "Minnie Mouse",
+    "date_created": "1928-11-18",
+    "color": "#FF66B2",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [
+      "female"
+    ],
+    "asset_path": "default",
+    "character_id": "minnie_mouse"
+  },
+  {
+    "name": "Donald Duck",
+    "date_created": "1934-06-09",
+    "color": "#0066CC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 7,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "donald_duck"
+  },
+  {
+    "name": "Daisy Duck",
+    "date_created": "1940-06-07",
+    "color": "#FF99CC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [
+      "female"
+    ],
+    "asset_path": "default",
+    "character_id": "daisy_duck"
+  },
+  {
+    "name": "Goofy",
+    "date_created": "1932-05-25",
+    "color": "#66CC33",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "goofy"
+  },
+  {
+    "name": "Pluto",
+    "date_created": "1930-09-05",
+    "color": "#FF9900",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [
+      "animal"
+    ],
+    "asset_path": "default",
+    "character_id": "pluto"
+  },
+  {
+    "name": "Snow White",
+    "date_created": "1937-12-21",
+    "color": "#FFE6E6",
+    "publisher": "Disney",
+    "age": 14,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "snow_white"
+  },
+  {
+    "name": "Cinderella",
+    "date_created": "1950-03-04",
+    "color": "#9CC3FF",
+    "publisher": "Disney",
+    "age": 19,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "cinderella"
+  },
+  {
+    "name": "Aurora",
+    "date_created": "1959-01-29",
+    "color": "#FFCCE5",
+    "publisher": "Disney",
+    "age": 16,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "aurora"
+  },
+  {
+    "name": "Ariel",
+    "date_created": "1989-11-17",
+    "color": "#00CCCC",
+    "publisher": "Disney",
+    "age": 16,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "ariel"
+  },
+  {
+    "name": "Prince Eric",
+    "date_created": "1989-11-17",
+    "color": "#3366CC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "prince_eric"
+  },
+  {
+    "name": "Belle",
+    "date_created": "1991-11-22",
+    "color": "#FFD27F",
+    "publisher": "Disney",
+    "age": 17,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "belle"
+  },
+  {
+    "name": "Beast",
+    "date_created": "1991-11-22",
+    "color": "#663300",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "beast"
+  },
+  {
+    "name": "Jasmine",
+    "date_created": "1992-11-25",
+    "color": "#66CCCC",
+    "publisher": "Disney",
+    "age": 15,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "jasmine"
+  },
+  {
+    "name": "Aladdin",
+    "date_created": "1992-11-25",
+    "color": "#CC9933",
+    "publisher": "Disney",
+    "age": 18,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "aladdin"
+  },
+  {
+    "name": "Pocahontas",
+    "date_created": "1995-06-16",
+    "color": "#8CBF5B",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "pocahontas"
+  },
+  {
+    "name": "Mulan",
+    "date_created": "1998-06-19",
+    "color": "#CC6666",
+    "publisher": "Disney",
+    "age": 16,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "mulan"
+  },
+  {
+    "name": "Tiana",
+    "date_created": "2009-12-11",
+    "color": "#2E8B57",
+    "publisher": "Disney",
+    "age": 19,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "tiana"
+  },
+  {
+    "name": "Rapunzel",
+    "date_created": "2010-11-24",
+    "color": "#FFD966",
+    "publisher": "Disney",
+    "age": 18,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "rapunzel"
+  },
+  {
+    "name": "Flynn Rider (Eugene)",
+    "date_created": "2010-11-24",
+    "color": "#996633",
+    "publisher": "Disney",
+    "age": 23,
+    "goodness": 8,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "flynn_rider_eugene"
+  },
+  {
+    "name": "Merida",
+    "date_created": "2012-06-22",
+    "color": "#CC3300",
+    "publisher": "Disney",
+    "age": 16,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "merida"
+  },
+  {
+    "name": "Moana",
+    "date_created": "2016-11-23",
+    "color": "#FFAA66",
+    "publisher": "Disney",
+    "age": 16,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "moana"
+  },
+  {
+    "name": "Maui",
+    "date_created": "2016-11-23",
+    "color": "#FFCC66",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 7,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "maui"
+  },
+  {
+    "name": "Elsa",
+    "date_created": "2013-11-27",
+    "color": "#CCE6FF",
+    "publisher": "Disney",
+    "age": 21,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "elsa"
+  },
+  {
+    "name": "Anna",
+    "date_created": "2013-11-27",
+    "color": "#FF99CC",
+    "publisher": "Disney",
+    "age": 18,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "anna"
+  },
+  {
+    "name": "Olaf",
+    "date_created": "2013-11-27",
+    "color": "#FFFFFF",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "olaf"
+  },
+  {
+    "name": "Kristoff",
+    "date_created": "2013-11-27",
+    "color": "#663300",
+    "publisher": "Disney",
+    "age": 21,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "kristoff"
+  },
+  {
+    "name": "Sven",
+    "date_created": "2013-11-27",
+    "color": "#A36633",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [
+      "animal"
+    ],
+    "asset_path": "default",
+    "character_id": "sven"
+  },
+  {
+    "name": "Tinker Bell",
+    "date_created": "1953-02-05",
+    "color": "#99FF66",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 7,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "tinker_bell"
+  },
+  {
+    "name": "Peter Pan",
+    "date_created": "1953-02-05",
+    "color": "#66CC66",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "peter_pan"
+  },
+  {
+    "name": "Captain Hook",
+    "date_created": "1953-02-05",
+    "color": "#660000",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "captain_hook"
+  },
+  {
+    "name": "Pinocchio",
+    "date_created": "1940-02-07",
+    "color": "#FFCC99",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "pinocchio"
+  },
+  {
+    "name": "Jiminy Cricket",
+    "date_created": "1940-02-07",
+    "color": "#006633",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "jiminy_cricket"
+  },
+  {
+    "name": "Bambi",
+    "date_created": "1942-08-13",
+    "color": "#CC9966",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [
+      "animal"
+    ],
+    "asset_path": "default",
+    "character_id": "bambi"
+  },
+  {
+    "name": "Thumper",
+    "date_created": "1942-08-13",
+    "color": "#CCCCCC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "thumper"
+  },
+  {
+    "name": "Dumbo",
+    "date_created": "1941-10-23",
+    "color": "#99CCFF",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "dumbo"
+  },
+  {
+    "name": "Lady",
+    "date_created": "1955-06-22",
+    "color": "#CC9966",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "lady"
+  },
+  {
+    "name": "Tramp",
+    "date_created": "1955-06-22",
+    "color": "#666633",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "tramp"
+  },
+  {
+    "name": "Winnie the Pooh",
+    "date_created": "1926-10-14",
+    "color": "#FFCC66",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "winnie_the_pooh"
+  },
+  {
+    "name": "Tigger",
+    "date_created": "1928-10-14",
+    "color": "#FF9900",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "tigger"
+  },
+  {
+    "name": "Piglet",
+    "date_created": "1926-10-14",
+    "color": "#FFCCCC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [
+      "pig"
+    ],
+    "asset_path": "default",
+    "character_id": "piglet"
+  },
+  {
+    "name": "Eeyore",
+    "date_created": "1926-10-14",
+    "color": "#9999CC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "eeyore"
+  },
+  {
+    "name": "Christopher Robin",
+    "date_created": "1926-10-14",
+    "color": "#336699",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "christopher_robin"
+  },
+  {
+    "name": "Simba",
+    "date_created": "1994-06-24",
+    "color": "#CC6633",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "simba"
+  },
+  {
+    "name": "Nala",
+    "date_created": "1994-06-24",
+    "color": "#CC9966",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "nala"
+  },
+  {
+    "name": "Mufasa",
+    "date_created": "1994-06-24",
+    "color": "#996633",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "mufasa"
+  },
+  {
+    "name": "Scar",
+    "date_created": "1994-06-24",
+    "color": "#333333",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "scar"
+  },
+  {
+    "name": "Timon",
+    "date_created": "1994-06-24",
+    "color": "#CCCC66",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "timon"
+  },
+  {
+    "name": "Pumbaa",
+    "date_created": "1994-06-24",
+    "color": "#CC9966",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "pumbaa"
+  },
+  {
+    "name": "Hercules",
+    "date_created": "1997-06-27",
+    "color": "#FFCC99",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "hercules"
+  },
+  {
+    "name": "Megara",
+    "date_created": "1997-06-27",
+    "color": "#CC6699",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 7,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "megara"
+  },
+  {
+    "name": "Hades",
+    "date_created": "1997-06-27",
+    "color": "#6633CC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "hades"
+  },
+  {
+    "name": "Tarzan",
+    "date_created": "1999-06-18",
+    "color": "#669966",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "tarzan"
+  },
+  {
+    "name": "Jane",
+    "date_created": "1999-06-18",
+    "color": "#FFCCAA",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 9,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "jane"
+  },
+  {
+    "name": "Lilo",
+    "date_created": "2002-06-21",
+    "color": "#FF6666",
+    "publisher": "Disney",
+    "age": 6,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "lilo"
+  },
+  {
+    "name": "Stitch",
+    "date_created": "2002-06-21",
+    "color": "#3366FF",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "stitch"
+  },
+  {
+    "name": "Woody",
+    "date_created": "1995-11-22",
+    "color": "#CC6600",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "woody"
+  },
+  {
+    "name": "Buzz Lightyear",
+    "date_created": "1995-11-22",
+    "color": "#99CCFF",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "buzz_lightyear"
+  },
+  {
+    "name": "Jessie",
+    "date_created": "1999-01-24",
+    "color": "#FF6666",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "jessie"
+  },
+  {
+    "name": "Bo Peep",
+    "date_created": "1995-11-22",
+    "color": "#FFCCFF",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "bo_peep"
+  },
+  {
+    "name": "Slinky Dog",
+    "date_created": "1995-11-22",
+    "color": "#996633",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "slinky_dog"
+  },
+  {
+    "name": "Mr. Potato Head",
+    "date_created": "1995-11-22",
+    "color": "#CC9966",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "mr_potato_head"
+  },
+  {
+    "name": "Rex",
+    "date_created": "1995-11-22",
+    "color": "#99CC66",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "rex"
+  },
+  {
+    "name": "Hamm",
+    "date_created": "1995-11-22",
+    "color": "#CC6666",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "hamm"
+  },
+  {
+    "name": "Mr. Incredible (Bob Parr)",
+    "date_created": "2004-11-05",
+    "color": "#FF6600",
+    "publisher": "Pixar",
+    "age": 40,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "mr_incredible_bob_parr"
+  },
+  {
+    "name": "Elastigirl (Helen Parr)",
+    "date_created": "2004-11-05",
+    "color": "#FF3399",
+    "publisher": "Pixar",
+    "age": 38,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "elastigirl_helen_parr"
+  },
+  {
+    "name": "Violet Parr",
+    "date_created": "2004-11-05",
+    "color": "#6666FF",
+    "publisher": "Pixar",
+    "age": 14,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "violet_parr"
+  },
+  {
+    "name": "Dash Parr",
+    "date_created": "2004-11-05",
+    "color": "#FF9900",
+    "publisher": "Pixar",
+    "age": 10,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "dash_parr"
+  },
+  {
+    "name": "Jack-Jack",
+    "date_created": "2004-11-05",
+    "color": "#FFFFFF",
+    "publisher": "Pixar",
+    "age": 1,
+    "goodness": 10,
+    "tags": [
+      "baby"
+    ],
+    "asset_path": "default",
+    "character_id": "jack_jack"
+  },
+  {
+    "name": "Frozone",
+    "date_created": "2004-11-05",
+    "color": "#66CCFF",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "frozone"
+  },
+  {
+    "name": "Syndrome",
+    "date_created": "2004-11-05",
+    "color": "#333333",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "syndrome"
+  },
+  {
+    "name": "Sulley",
+    "date_created": "2001-11-02",
+    "color": "#6699CC",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [
+      "monster"
+    ],
+    "asset_path": "default",
+    "character_id": "sulley"
+  },
+  {
+    "name": "Mike Wazowski",
+    "date_created": "2001-11-02",
+    "color": "#66CC66",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [
+      "monster"
+    ],
+    "asset_path": "default",
+    "character_id": "mike_wazowski"
+  },
+  {
+    "name": "Boo",
+    "date_created": "2001-11-02",
+    "color": "#FFCCCC",
+    "publisher": "Pixar",
+    "age": 3,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "boo"
+  },
+  {
+    "name": "Nemo",
+    "date_created": "2003-05-30",
+    "color": "#FF6600",
+    "publisher": "Pixar",
+    "age": 1,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "nemo"
+  },
+  {
+    "name": "Marlin",
+    "date_created": "2003-05-30",
+    "color": "#3366FF",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "marlin"
+  },
+  {
+    "name": "Dory",
+    "date_created": "2003-05-30",
+    "color": "#66CCFF",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "dory"
+  },
+  {
+    "name": "Remy",
+    "date_created": "2007-06-29",
+    "color": "#CCCC99",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "remy"
+  },
+  {
+    "name": "Linguini",
+    "date_created": "2007-06-29",
+    "color": "#CC9966",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 8,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "linguini"
+  },
+  {
+    "name": "WALL·E",
+    "date_created": "2008-06-27",
+    "color": "#CCCCCC",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "wall_e"
+  },
+  {
+    "name": "EVE",
+    "date_created": "2008-06-27",
+    "color": "#FFFFFF",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "eve"
+  },
+  {
+    "name": "Carl Fredricksen",
+    "date_created": "2009-05-29",
+    "color": "#666666",
+    "publisher": "Pixar",
+    "age": 78,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "carl_fredricksen"
+  },
+  {
+    "name": "Russell",
+    "date_created": "2009-05-29",
+    "color": "#FFCC00",
+    "publisher": "Pixar",
+    "age": 8,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "russell"
+  },
+  {
+    "name": "Dug",
+    "date_created": "2009-05-29",
+    "color": "#CC9966",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "dug"
+  },
+  {
+    "name": "Joy",
+    "date_created": "2015-06-19",
+    "color": "#FFD700",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "joy"
+  },
+  {
+    "name": "Sadness",
+    "date_created": "2015-06-19",
+    "color": "#6699CC",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "sadness"
+  },
+  {
+    "name": "Lightning McQueen",
+    "date_created": "2006-06-09",
+    "color": "#FF3333",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "lightning_mcqueen"
+  },
+  {
+    "name": "Mater",
+    "date_created": "2006-06-09",
+    "color": "#996633",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "mater"
+  },
+  {
+    "name": "Doc Hudson",
+    "date_created": "2006-06-09",
+    "color": "#333366",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 9,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "doc_hudson"
+  },
+  {
+    "name": "Judy Hopps",
+    "date_created": "2016-03-04",
+    "color": "#FFCCCC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 10,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "judy_hopps"
+  },
+  {
+    "name": "Nick Wilde",
+    "date_created": "2016-03-04",
+    "color": "#CC6633",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "nick_wilde"
+  },
+  {
+    "name": "Maleficent",
+    "date_created": "1959-01-29",
+    "color": "#330033",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 1,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "maleficent"
+  },
+  {
+    "name": "Ursula",
+    "date_created": "1989-11-17",
+    "color": "#663399",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "ursula"
+  },
+  {
+    "name": "Cruella de Vil",
+    "date_created": "1961-01-25",
+    "color": "#FFFFFF",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 1,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "cruella_de_vil"
+  },
+  {
+    "name": "Queen of Hearts",
+    "date_created": "1951-07-28",
+    "color": "#FF0000",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "queen_of_hearts"
+  },
+  {
+    "name": "Lady Tremaine",
+    "date_created": "1950-03-04",
+    "color": "#333333",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "lady_tremaine"
+  },
+  {
+    "name": "Prince Charming",
+    "date_created": "1950-03-04",
+    "color": "#CCCCFF",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 8,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "prince_charming"
+  },
+  {
+    "name": "King Triton",
+    "date_created": "1989-11-17",
+    "color": "#3366CC",
+    "publisher": "Disney",
+    "age": null,
+    "goodness": 7,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "king_triton"
+  },
+  {
+    "name": "Miguel",
+    "date_created": "2017-11-22",
+    "color": "#FF6666",
+    "publisher": "Pixar",
+    "age": 12,
+    "goodness": 10,
+    "tags": [
+      "human"
+    ],
+    "asset_path": "default",
+    "character_id": "miguel"
+  },
+  {
+    "name": "Ernesto de la Cruz",
+    "date_created": "2017-11-22",
+    "color": "#CC3333",
+    "publisher": "Pixar",
+    "age": null,
+    "goodness": 2,
+    "tags": [],
+    "asset_path": "default",
+    "character_id": "ernesto_de_la_cruz"
+  }
+]
