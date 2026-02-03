@@ -8,4 +8,7 @@ export type Character = {
   goodness?: number
   tags?: string[]
   asset_path?: string
+  sprite_width?: number
+  sprite_height?: number
+  idle_frames?: number
 }

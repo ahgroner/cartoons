@@ -1,10 +1,10 @@
 import './App.css'
-import World from './components/World'
+import { WorldThree } from './components/WorldThree'
 
 export default function App() {
   return (
     <main>
-      <World />
+      <WorldThree />
     </main>
   )
 }

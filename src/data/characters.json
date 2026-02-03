@@ -8,7 +8,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "mickey_mouse"
+    "character_id": "mickey_mouse",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Minnie Mouse",
@@ -21,7 +24,10 @@
       "female"
     ],
     "asset_path": "default",
-    "character_id": "minnie_mouse"
+    "character_id": "minnie_mouse",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Donald Duck",
@@ -32,7 +38,10 @@
     "goodness": 7,
     "tags": [],
     "asset_path": "default",
-    "character_id": "donald_duck"
+    "character_id": "donald_duck",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Daisy Duck",
@@ -45,7 +54,10 @@
       "female"
     ],
     "asset_path": "default",
-    "character_id": "daisy_duck"
+    "character_id": "daisy_duck",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Goofy",
@@ -56,7 +68,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "goofy"
+    "character_id": "goofy",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Pluto",
@@ -69,7 +84,10 @@
       "animal"
     ],
     "asset_path": "default",
-    "character_id": "pluto"
+    "character_id": "pluto",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Snow White",
@@ -82,7 +100,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "snow_white"
+    "character_id": "snow_white",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Cinderella",
@@ -95,7 +116,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "cinderella"
+    "character_id": "cinderella",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Aurora",
@@ -108,7 +132,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "aurora"
+    "character_id": "aurora",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Ariel",
@@ -119,7 +146,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "ariel"
+    "character_id": "ariel",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Prince Eric",
@@ -132,7 +162,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "prince_eric"
+    "character_id": "prince_eric",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Belle",
@@ -145,7 +178,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "belle"
+    "character_id": "belle",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Beast",
@@ -156,7 +192,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "beast"
+    "character_id": "beast",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Jasmine",
@@ -169,7 +208,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "jasmine"
+    "character_id": "jasmine",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Aladdin",
@@ -182,7 +224,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "aladdin"
+    "character_id": "aladdin",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Pocahontas",
@@ -195,7 +240,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "pocahontas"
+    "character_id": "pocahontas",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Mulan",
@@ -208,7 +256,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "mulan"
+    "character_id": "mulan",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Tiana",
@@ -221,7 +272,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "tiana"
+    "character_id": "tiana",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Rapunzel",
@@ -234,7 +288,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "rapunzel"
+    "character_id": "rapunzel",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Flynn Rider (Eugene)",
@@ -247,7 +304,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "flynn_rider_eugene"
+    "character_id": "flynn_rider_eugene",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Merida",
@@ -258,7 +318,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "merida"
+    "character_id": "merida",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Moana",
@@ -271,7 +334,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "moana"
+    "character_id": "moana",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Maui",
@@ -282,7 +348,10 @@
     "goodness": 7,
     "tags": [],
     "asset_path": "default",
-    "character_id": "maui"
+    "character_id": "maui",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Elsa",
@@ -293,7 +362,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "elsa"
+    "character_id": "elsa",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Anna",
@@ -306,7 +378,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "anna"
+    "character_id": "anna",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Olaf",
@@ -317,7 +392,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "olaf"
+    "character_id": "olaf",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Kristoff",
@@ -330,7 +408,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "kristoff"
+    "character_id": "kristoff",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Sven",
@@ -343,7 +424,10 @@
       "animal"
     ],
     "asset_path": "default",
-    "character_id": "sven"
+    "character_id": "sven",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Tinker Bell",
@@ -354,7 +438,10 @@
     "goodness": 7,
     "tags": [],
     "asset_path": "default",
-    "character_id": "tinker_bell"
+    "character_id": "tinker_bell",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Peter Pan",
@@ -365,7 +452,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "peter_pan"
+    "character_id": "peter_pan",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Captain Hook",
@@ -376,7 +466,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "captain_hook"
+    "character_id": "captain_hook",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Pinocchio",
@@ -387,7 +480,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "pinocchio"
+    "character_id": "pinocchio",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Jiminy Cricket",
@@ -398,7 +494,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "jiminy_cricket"
+    "character_id": "jiminy_cricket",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Bambi",
@@ -411,7 +510,10 @@
       "animal"
     ],
     "asset_path": "default",
-    "character_id": "bambi"
+    "character_id": "bambi",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Thumper",
@@ -422,7 +524,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "thumper"
+    "character_id": "thumper",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Dumbo",
@@ -433,7 +538,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "dumbo"
+    "character_id": "dumbo",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Lady",
@@ -444,7 +552,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "lady"
+    "character_id": "lady",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Tramp",
@@ -455,7 +566,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "tramp"
+    "character_id": "tramp",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Winnie the Pooh",
@@ -466,7 +580,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "winnie_the_pooh"
+    "character_id": "winnie_the_pooh",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Tigger",
@@ -477,7 +594,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "tigger"
+    "character_id": "tigger",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Piglet",
@@ -490,7 +610,10 @@
       "pig"
     ],
     "asset_path": "default",
-    "character_id": "piglet"
+    "character_id": "piglet",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Eeyore",
@@ -501,7 +624,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "eeyore"
+    "character_id": "eeyore",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Christopher Robin",
@@ -514,7 +640,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "christopher_robin"
+    "character_id": "christopher_robin",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Simba",
@@ -525,7 +654,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "simba"
+    "character_id": "simba",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Nala",
@@ -536,7 +668,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "nala"
+    "character_id": "nala",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Mufasa",
@@ -547,7 +682,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "mufasa"
+    "character_id": "mufasa",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Scar",
@@ -558,7 +696,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "scar"
+    "character_id": "scar",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Timon",
@@ -569,7 +710,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "timon"
+    "character_id": "timon",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Pumbaa",
@@ -580,7 +724,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "pumbaa"
+    "character_id": "pumbaa",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Hercules",
@@ -591,7 +738,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "hercules"
+    "character_id": "hercules",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Megara",
@@ -604,7 +754,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "megara"
+    "character_id": "megara",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Hades",
@@ -615,7 +768,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "hades"
+    "character_id": "hades",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Tarzan",
@@ -628,7 +784,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "tarzan"
+    "character_id": "tarzan",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Jane",
@@ -641,7 +800,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "jane"
+    "character_id": "jane",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Lilo",
@@ -654,7 +816,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "lilo"
+    "character_id": "lilo",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Stitch",
@@ -665,7 +830,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "stitch"
+    "character_id": "stitch",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Woody",
@@ -676,7 +844,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "woody"
+    "character_id": "woody",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Buzz Lightyear",
@@ -687,7 +858,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "buzz_lightyear"
+    "character_id": "buzz_lightyear",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Jessie",
@@ -698,7 +872,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "jessie"
+    "character_id": "jessie",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Bo Peep",
@@ -709,7 +886,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "bo_peep"
+    "character_id": "bo_peep",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Slinky Dog",
@@ -720,7 +900,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "slinky_dog"
+    "character_id": "slinky_dog",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Mr. Potato Head",
@@ -731,7 +914,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "mr_potato_head"
+    "character_id": "mr_potato_head",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Rex",
@@ -742,7 +928,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "rex"
+    "character_id": "rex",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Hamm",
@@ -753,7 +942,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "hamm"
+    "character_id": "hamm",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Mr. Incredible (Bob Parr)",
@@ -764,7 +956,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "mr_incredible_bob_parr"
+    "character_id": "mr_incredible_bob_parr",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Elastigirl (Helen Parr)",
@@ -775,7 +970,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "elastigirl_helen_parr"
+    "character_id": "elastigirl_helen_parr",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Violet Parr",
@@ -786,7 +984,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "violet_parr"
+    "character_id": "violet_parr",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Dash Parr",
@@ -797,7 +998,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "dash_parr"
+    "character_id": "dash_parr",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Jack-Jack",
@@ -810,7 +1014,10 @@
       "baby"
     ],
     "asset_path": "default",
-    "character_id": "jack_jack"
+    "character_id": "jack_jack",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Frozone",
@@ -821,7 +1028,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "frozone"
+    "character_id": "frozone",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Syndrome",
@@ -832,7 +1042,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "syndrome"
+    "character_id": "syndrome",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Sulley",
@@ -845,7 +1058,10 @@
       "monster"
     ],
     "asset_path": "default",
-    "character_id": "sulley"
+    "character_id": "sulley",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Mike Wazowski",
@@ -858,7 +1074,10 @@
       "monster"
     ],
     "asset_path": "default",
-    "character_id": "mike_wazowski"
+    "character_id": "mike_wazowski",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Boo",
@@ -869,7 +1088,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "boo"
+    "character_id": "boo",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Nemo",
@@ -880,7 +1102,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "nemo"
+    "character_id": "nemo",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Marlin",
@@ -891,7 +1116,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "marlin"
+    "character_id": "marlin",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Dory",
@@ -902,7 +1130,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "dory"
+    "character_id": "dory",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Remy",
@@ -913,7 +1144,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "remy"
+    "character_id": "remy",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Linguini",
@@ -926,7 +1160,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "linguini"
+    "character_id": "linguini",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "WALL·E",
@@ -937,7 +1174,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "wall_e"
+    "character_id": "wall_e",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "EVE",
@@ -948,7 +1188,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "eve"
+    "character_id": "eve",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Carl Fredricksen",
@@ -959,7 +1202,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "carl_fredricksen"
+    "character_id": "carl_fredricksen",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Russell",
@@ -970,7 +1216,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "russell"
+    "character_id": "russell",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Dug",
@@ -981,7 +1230,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "dug"
+    "character_id": "dug",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Joy",
@@ -992,7 +1244,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "joy"
+    "character_id": "joy",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Sadness",
@@ -1003,7 +1258,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "sadness"
+    "character_id": "sadness",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Lightning McQueen",
@@ -1014,7 +1272,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "lightning_mcqueen"
+    "character_id": "lightning_mcqueen",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Mater",
@@ -1025,7 +1286,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "mater"
+    "character_id": "mater",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Doc Hudson",
@@ -1036,7 +1300,10 @@
     "goodness": 9,
     "tags": [],
     "asset_path": "default",
-    "character_id": "doc_hudson"
+    "character_id": "doc_hudson",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Judy Hopps",
@@ -1047,7 +1314,10 @@
     "goodness": 10,
     "tags": [],
     "asset_path": "default",
-    "character_id": "judy_hopps"
+    "character_id": "judy_hopps",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Nick Wilde",
@@ -1058,7 +1328,10 @@
     "goodness": 8,
     "tags": [],
     "asset_path": "default",
-    "character_id": "nick_wilde"
+    "character_id": "nick_wilde",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Maleficent",
@@ -1069,7 +1342,10 @@
     "goodness": 1,
     "tags": [],
     "asset_path": "default",
-    "character_id": "maleficent"
+    "character_id": "maleficent",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Ursula",
@@ -1080,7 +1356,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "ursula"
+    "character_id": "ursula",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Cruella de Vil",
@@ -1091,7 +1370,10 @@
     "goodness": 1,
     "tags": [],
     "asset_path": "default",
-    "character_id": "cruella_de_vil"
+    "character_id": "cruella_de_vil",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Queen of Hearts",
@@ -1102,7 +1384,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "queen_of_hearts"
+    "character_id": "queen_of_hearts",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Lady Tremaine",
@@ -1113,7 +1398,10 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "lady_tremaine"
+    "character_id": "lady_tremaine",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Prince Charming",
@@ -1126,7 +1414,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "prince_charming"
+    "character_id": "prince_charming",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "King Triton",
@@ -1137,7 +1428,10 @@
     "goodness": 7,
     "tags": [],
     "asset_path": "default",
-    "character_id": "king_triton"
+    "character_id": "king_triton",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Miguel",
@@ -1150,7 +1444,10 @@
       "human"
     ],
     "asset_path": "default",
-    "character_id": "miguel"
+    "character_id": "miguel",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   },
   {
     "name": "Ernesto de la Cruz",
@@ -1161,6 +1458,9 @@
     "goodness": 2,
     "tags": [],
     "asset_path": "default",
-    "character_id": "ernesto_de_la_cruz"
+    "character_id": "ernesto_de_la_cruz",
+    "sprite_width": 128,
+    "sprite_height": 128,
+    "idle_frames": 14
   }
 ]

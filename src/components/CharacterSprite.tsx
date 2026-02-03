@@ -14,62 +14,39 @@ type Props = {
 export default function CharacterSprite({ character, x, y, size = 64, speed = 200 }: Props) {
   const ref = useRef<HTMLDivElement | null>(null)
   const prev = useRef<{ x: number; y: number } | null>(null)
-  const [isMoving, setIsMoving] = useState(false)
-  const [facing, setFacing] = useState<'left' | 'right'>('right')
+  // Remove isMoving and facing, not needed for idle animation
+  const [frame, setFrame] = useState(0)
 
+  // Only handle position update (no walking/facing logic)
   useEffect(() => {
     const el = ref.current
     if (!el) return
+    el.style.transform = `translate(${x}px, ${y}px)`
+  }, [x, y])
 
-    const prevPos = prev.current
-    const cur = { x, y }
-
-    // If first placement, just teleport (no transition)
-    if (!prevPos) {
-      el.style.transition = 'none'
-      el.style.transform = `translate(${x}px, ${y}px)`
-      prev.current = cur
-      return
+  // Animation loop for idle spritesheet
+  useEffect(() => {
+    let animId: number
+    let running = true
+    function animate() {
+      setFrame(f => (f + 1) % idleFrames)
+      animId = window.setTimeout(animate, 1000 / 12) // 12 FPS
     }
-
-    const dx = x - prevPos.x
-    const dy = y - prevPos.y
-    const dist = Math.hypot(dx, dy)
-    const duration = Math.max(0.05, dist / speed) // seconds
-
-    // Determine facing based on horizontal movement
-    if (dx < 0) setFacing('left')
-    else if (dx > 0) setFacing('right')
-
-    // Listen for transition end to toggle walking state
-    const onTransitionEnd = (ev: TransitionEvent) => {
-      if (ev.propertyName !== 'transform') return
-      setIsMoving(false)
-    }
-
-    el.addEventListener('transitionend', onTransitionEnd)
-
-    // Start moving
-    setIsMoving(true)
-    el.style.transition = `transform ${duration}s linear`
-    // apply transform on next frame to ensure transition applies
-    requestAnimationFrame(() => {
-      el.style.transform = `translate(${x}px, ${y}px)`
-    })
-
-    prev.current = cur
-
+    animate()
     return () => {
-      el.removeEventListener('transitionend', onTransitionEnd)
+      running = false
+      clearTimeout(animId)
     }
-  }, [x, y, speed])
+  }, [])
 
   const cid = (character as any).character_id;
-  if(!cid) {
+  if (!cid) {
     return null;
   }
-
   const assets = assetMap[cid]
+  const spriteWidth = character.sprite_width || size
+  const spriteHeight = character.sprite_height || size
+  const idleFrames = character.idle_frames || 1
 
   return (
     <div
@@ -85,15 +62,21 @@ export default function CharacterSprite({ character, x, y, size = 64, speed = 20
       title={character.name}
     >
       <HoverTooltip title={character.name} content={JSON.stringify(character, null, 2)}>
-        <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+        <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
           <img
-            src={isMoving ? assets.walk : assets.idle}
+            src={assets.idle}
             style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'contain',
-              transform: facing === 'left' ? 'scaleX(-1)' : 'none'
+              position: 'absolute',
+              left: -(frame * spriteWidth),
+              top: 0,
+              width: spriteWidth * idleFrames,
+              height: spriteHeight,
+              imageRendering: 'pixelated',
+              pointerEvents: 'none',
+              userSelect: 'none',
             }}
+            draggable={false}
+            alt={character.name}
           />
         </div>
       </HoverTooltip>
