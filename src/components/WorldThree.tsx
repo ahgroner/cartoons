@@ -95,7 +95,7 @@ function Characters({ characters, positions }: { characters: Character[]; positi
 
   return (
     <>
-      {characters.map((c) => {
+      {characters.slice(0,1).map((c) => {
         const p = animatedPositions.current[c.character_id] || positions[c.character_id];
         const assets = assetMap[c.character_id.replace(/_\d+$/, '')];
         const spritesheet = assets?.spritesheet;
@@ -120,7 +120,7 @@ function Characters({ characters, positions }: { characters: Character[]; positi
   );
 }
 
-export function WorldThree() {
+export const WorldThree = () => {
   const [arrangeBy, setArrangeBy] = useState('date_created');
   const [zoom, setZoom] = useState(1);
   const [offset, setOffset] = useState({ x: 0, y: 0 });

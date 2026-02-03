@@ -17,10 +17,10 @@ export const CharacterSprite = ({
   facing = 'right',
   isWalking = false,
 }: CharacterSpriteProps) => {
+
   const meshRef = useRef<THREE.Mesh>(null);
   const assets = assetMap[character.character_id.replace(/_\d+$/, '')];
 
-  console.log(character)
   // Frame ranges
   const idleStart = 0;
   const idleEnd = character.idle_frames - 1;
@@ -28,15 +28,14 @@ export const CharacterSprite = ({
   const walkEnd = character.idle_frames + character.walk_frames - 1;
   const totalFrames = character.idle_frames + character.walk_frames;
 
-  console.log(assets.spritesheet)
   const texture = useLoader(THREE.TextureLoader, assets?.spritesheet);
 
   const frame = useRef(idleStart);
   const lastTime = useRef(0);
+  const prevIsWalking = useRef(isWalking);
 
   // Set texture params
   useEffect(() => {
-    texture.wrapS = THREE.ClampToEdgeWrapping;
     texture.wrapT = THREE.ClampToEdgeWrapping;
     texture.minFilter = THREE.NearestFilter;
     texture.magFilter = THREE.NearestFilter;
@@ -46,26 +45,36 @@ export const CharacterSprite = ({
   useFrame((_, delta) => {
     lastTime.current += delta;
     const frameDuration = 1 / fps;
-    let startFrame = isWalking ? walkStart : idleStart;
-    let endFrame = isWalking ? walkEnd : idleEnd;
-    let numFrames = endFrame - startFrame + 1;
-    // If switching between idle/walk, reset to startFrame
-    if (frame.current < startFrame || frame.current > endFrame) {
-      frame.current = startFrame;
+    let frameRange = { start: 0, end: 0 };
+    switch (isWalking) {
+      case true:
+        frameRange = { start: walkStart, end: walkEnd };
+        break;
+      case false:
+        frameRange = { start: idleStart, end: idleEnd };
+        break;
     }
+
+    // Reset frame if animation state changes
+    if (prevIsWalking.current !== isWalking) {
+      frame.current = frameRange.start;
+      prevIsWalking.current = isWalking;
+    }
+
     if (lastTime.current >= frameDuration) {
-      let relFrame = (frame.current - startFrame + 1) % numFrames;
-      frame.current = startFrame + relFrame;
+      frame.current++;
+      if (frame.current > frameRange.end) {
+        frame.current = frameRange.start;
+      }
       lastTime.current = 0;
     }
-    // Set offset for vertical spritesheet (original logic)
-    texture.offset.y = frame.current / totalFrames;
+
     texture.repeat.y = 1 / totalFrames;
+    texture.offset.y = 1 - ((frame.current + 1) / totalFrames);
     texture.offset.x = 0;
     texture.repeat.x = 1;
   });
 
-  console.log('SpriteSheetMesh geometry:', character.sprite_width, character.sprite_height);
   return (
     <mesh ref={meshRef}>
       <planeGeometry args={[character.sprite_width, character.sprite_height]} />
